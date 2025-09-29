@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    float principal, rate;
+    int periods;
+
+    // Get Principal Amount
+    printf("Enter Principal Amount:\n");
+    scanf("%f", &principal);
+
+    // Get Rate of Interest
+    printf("Enter Rate of Interest:\n");
+    scanf("%f", &rate);
+
+    // Get Number of Periods
+    printf("Enter Number of Periods:\n");
+    scanf("%d", &periods);
+
+    // Print values
+    printf("\nYou entered:\n");
+    printf("Principal Amount = %.2f\n", principal);
+    printf("Rate of Interest = %.2f%%\n", rate);
+    printf("Number of Periods = %d\n", periods);
+
+    return 0;
+}
